@@ -13,7 +13,7 @@ const buttonVariants = cva(
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         secondary:
           "bg-white text-secondary-foreground hover:bg-black hover:text-white border border-black",
-        link: "text-[#41FF01] underline-offset-4 hover:underline text-base",
+        link: "text-black underline-offset-4 hover:underline text-lg hover:text-[#41FF01] ",
         primary: "text-black bg-[#41FF01] hover:bg-black hover:text-[#41FF01]",
       },
       size: {

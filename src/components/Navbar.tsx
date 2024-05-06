@@ -11,7 +11,7 @@ const Navbar = async() => {
             <nav className='bg-white border-gray-200 px-4 py-2.5'>
                 <div className='flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
 
-                    <h2 className="font-bold">Nettvett</h2>
+                    <h2 className="font-bold text-2xl">Nett<span className="text-[#41FF01]">vett</span></h2>
 
                     <div className="space-x-4">
                         <Link href="/" className={buttonVariants({variant: "link"})}>
